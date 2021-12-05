@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+      - name: install
         run: npm install
       - name: semantic
           run: npx semantic-release -t \${version}
