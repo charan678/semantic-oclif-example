@@ -6,7 +6,7 @@
   "bin": {
     "semantic-oclif-example": "./bin/run"
   },
-  "bugs": "https://github.com/https://github.com/charan678/semantic-oclif-example/semantic-oclif-example/issues",
+  "bugs": "https://github.com/charan678/semantic-oclif-example/issues",
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.6",
     "@oclif/test": "^1.2.8",
@@ -39,7 +39,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/https://github.com/charan678/semantic-oclif-example",
+  "homepage": "https://github.com/charan678/semantic-oclif-example",
   "keywords": [
     "oclif"
   ],
@@ -52,7 +52,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "https://github.com/charan678/semantic-oclif-example/semantic-oclif-example",
+  "repository": "https://github.com/charan678/semantic-oclif-example",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
