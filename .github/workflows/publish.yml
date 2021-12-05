@@ -29,6 +29,7 @@ jobs:
         run: npx semantic-release -t \${version}
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
+          NPM_TOKEN : ${{ secrets.NPM_TOKEN }}
 
       - name: Publish
         run: npm publish
