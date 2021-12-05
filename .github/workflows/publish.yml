@@ -13,6 +13,8 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x]
+    outputs:
+      tag-name: ${{ steps.semantic.outputs.TAG_NAME }}
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -23,6 +25,7 @@ jobs:
       - name: install
         run: npm install
       - name: semantic
+        id: semantic
         run: npx semantic-release -t \${version}
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
