@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/charan678/semantic-oclif-example/compare/1.0.1...1.0.2) (2021-12-05)
+
+
+### Library - Chores
+
+* testing needs in github action ([51c2e2c](https://github.com/charan678/semantic-oclif-example/commit/51c2e2ce1f5ff8e90d52b4629f8e17bb8787d0d7))
+
 ### [1.0.1](https://github.com/charan678/semantic-oclif-example/compare/1.0.0...1.0.1) (2021-12-05)
 
 
