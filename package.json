@@ -1,7 +1,7 @@
 {
   "name": "semantic-oclif-example",
   "description": "example oclif project",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "author": "chsingh",
   "bin": {
     "semantic-oclif-example": "./bin/run"
@@ -39,7 +39,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/https://github.com/charan678/semantic-oclif-example/semantic-oclif-example",
+  "homepage": "https://github.com/https://github.com/charan678/semantic-oclif-example",
   "keywords": [
     "oclif"
   ],
