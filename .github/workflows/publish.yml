@@ -23,7 +23,7 @@ jobs:
       - name: install
         run: npm install
       - name: semantic
-          run: npx semantic-release -t \${version}
+        run: npx semantic-release -t \${version}
       - name: Publish
         run: npm publish
         env:
