@@ -20,22 +20,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm install
-
-  semantic:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ 12.x, 14.x, 16.x ]
-    steps:
-      - run: npx semantic-release -t \${version}
-
-  publish:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ 12.x, 14.x, 16.x ]
-    steps:
-      - run: npm publish
+        run: npm install
+      - name: semantic
+          run: npx semantic-release -t \${version}
+      - name: Publish
+        run: npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
