@@ -43,7 +43,7 @@ jobs:
         run: npm install
       - name: semantic
         id: semantic
-        run: npx semantic-release -t \${version}
+        run: npx semantic-release -t \${version} --debug
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
