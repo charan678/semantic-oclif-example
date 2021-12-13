@@ -19,7 +19,7 @@ $ npm install -g semantic-oclif-example
 $ semantic-oclif-example COMMAND
 running command...
 $ semantic-oclif-example (-v|--version|version)
-semantic-oclif-example/1.0.2 linux-x64 node-v14.18.1
+semantic-oclif-example/1.0.3 linux-x64 node-v14.18.1
 $ semantic-oclif-example --help [COMMAND]
 USAGE
   $ semantic-oclif-example COMMAND
@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`semantic-oclif-example hello [FILE]`](#semantic-oclif-example-hello-file)
 * [`semantic-oclif-example help [COMMAND]`](#semantic-oclif-example-help-command)
+* [`semantic-oclif-example world [FILE]`](#semantic-oclif-example-world-file)
 
 ## `semantic-oclif-example hello [FILE]`
 
@@ -49,7 +50,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/charan678/semantic-oclif-example/blob/v1.0.2/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/charan678/semantic-oclif-example/blob/v1.0.3/src/commands/hello.ts)_
 
 ## `semantic-oclif-example help [COMMAND]`
 
@@ -67,4 +68,24 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.10/src/commands/help.ts)_
+
+## `semantic-oclif-example world [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ semantic-oclif-example world [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+
+EXAMPLE
+  $ semantic-oclif-example world
+  hello world from ./src/hello.ts!
+```
+
+_See code: [src/commands/world.ts](https://github.com/charan678/semantic-oclif-example/blob/v1.0.3/src/commands/world.ts)_
 <!-- commandsstop -->

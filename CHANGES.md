@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/charan678/semantic-oclif-example/compare/1.0.2...1.0.3) (2021-12-13)
+
+
+### Library - Fixes
+
+* add new command ([132a630](https://github.com/charan678/semantic-oclif-example/commit/132a63001ec231a861c8d12fd7be3ed80457585a))
+
 ### [1.0.2](https://github.com/charan678/semantic-oclif-example/compare/1.0.1...1.0.2) (2021-12-05)
 
 
