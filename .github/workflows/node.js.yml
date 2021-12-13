@@ -33,6 +33,10 @@ jobs:
     outputs:
       tag-name: ${{ steps.semantic.outputs.TAG_NAME }}
     steps:
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+        with:
+          sudo: false
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
