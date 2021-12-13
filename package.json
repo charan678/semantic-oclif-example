@@ -1,7 +1,7 @@
 {
   "name": "semantic-oclif-example",
   "description": "example oclif project",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "chsingh",
   "bin": {
     "semantic-oclif-example": "./bin/run"

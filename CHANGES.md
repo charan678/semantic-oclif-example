@@ -1,3 +1,10 @@
+### [1.0.4](https://github.com/charan678/semantic-oclif-example/compare/1.0.3...1.0.4) (2021-12-13)
+
+
+### Library - Fixes
+
+* world ([e0bc461](https://github.com/charan678/semantic-oclif-example/commit/e0bc46141a5b4805732cf9bbdd6ac0e1b8a59a75))
+
 ### [1.0.3](https://github.com/charan678/semantic-oclif-example/compare/1.0.2...1.0.3) (2021-12-13)
 
 

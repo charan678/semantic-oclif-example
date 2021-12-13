@@ -19,7 +19,7 @@ $ npm install -g semantic-oclif-example
 $ semantic-oclif-example COMMAND
 running command...
 $ semantic-oclif-example (-v|--version|version)
-semantic-oclif-example/1.0.3 linux-x64 node-v14.18.1
+semantic-oclif-example/1.0.4 linux-x64 node-v14.18.1
 $ semantic-oclif-example --help [COMMAND]
 USAGE
   $ semantic-oclif-example COMMAND
@@ -50,7 +50,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/charan678/semantic-oclif-example/blob/v1.0.3/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/charan678/semantic-oclif-example/blob/v1.0.4/src/commands/hello.ts)_
 
 ## `semantic-oclif-example help [COMMAND]`
 
@@ -87,5 +87,5 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/world.ts](https://github.com/charan678/semantic-oclif-example/blob/v1.0.3/src/commands/world.ts)_
+_See code: [src/commands/world.ts](https://github.com/charan678/semantic-oclif-example/blob/v1.0.4/src/commands/world.ts)_
 <!-- commandsstop -->
