@@ -14,12 +14,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-      with:
-        sudo: true
-        limit-access-to-actor: true
-
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
@@ -49,7 +43,7 @@ jobs:
         run: npm install
       - name: semantic
         id: semantic
-        run: npx semantic-release -t \${version} --debug
+        run: DEBUG=semantic-release:* npx semantic-release -t \${version} --debug
         timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
