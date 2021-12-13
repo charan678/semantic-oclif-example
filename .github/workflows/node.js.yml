@@ -50,6 +50,7 @@ jobs:
       - name: semantic
         id: semantic
         run: npx semantic-release -t \${version} --debug
+        timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
